@@ -1,0 +1,60 @@
+#inicio
+
+a{
+    color:purple;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style:none;
+    padding: 0px 16px;
+}
+
+body{
+    background-color: rgb(236, 234, 230);
+}
+
+header{
+    background-color:pink;
+    display:flex ;
+    justify-content: space-between;
+}
+header div img{
+    width: 20%
+}
+
+main{ 
+    display: flex ;
+}
+section{
+    width: 100%;
+}
+.parrafo{background-color: rgb(231, 194, 205);
+}
+
+.tituloPrincipal{
+    text-align: center;
+}
+.testimonios{ 
+    border: 2px solid palevioletred;
+padding: 6px;
+}
+
+
+footer{
+    
+    
+
+}
+
+
+.imagenPincipal{
+    width: 100%;
+}
+    
+
+
+    
+
+
