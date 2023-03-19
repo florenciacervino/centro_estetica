@@ -4,45 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centro de belleza- GyL</title>
-    <link rel="stylesheet" href="../css/syles.css">
+    <title>Centro de belleza- B y L</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="../css/syles.css">
     <link rel="icon" type="image/jpg" href="../assets/img/logo.jpg"/>
 </head>
-<body>
     <!-- aca va la cabezera -->
     <header>     
         <div>
             <img src="../assets/img/logo.jpg" alt="logo centro de belleza b y l">
         </div>
-        <nav>
-            <ul>
-                <li> 
-                    <a href="../index.html">
-                        Inicio  
-                    </a>
-                </li>
-                <li>
-                    <a href="./tratamientos.html">
-                        Tratamientos 
-                    </a>
-                </li>  
-                <li>
-                    <a href="nosotros.html">
-                        Nosotros
-                    </a>
-                </li>   
-                 <li>
-                    <a href="./testimonios.html">
-                        Testimonios
-                    </a>
-                 </li>
-                 <li>
-                    <a href="./contacto.html">
-                        Contacto
-                    </a>
-                 </li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light colorNav text-whitw">
+            <div class="container-fluid">
+              <a class="inicio" href="../index.html">inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="../pages/tratamientos.html">tratamientos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="../pages/nosotros.html">nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link padding-right 20px " href="../pages/testimonios.html">testimonio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="../pages/contacto.html" >contacto</a>
+                  </li>
+                  </div>
+                  </nav>
+     </nav>
     </header>
     <main>
         <!-- aca va el comtenido principal-->
@@ -65,13 +59,13 @@
         </section>
     </main>
     <footer>
-        <h3>
+        <h3 class="contacto mt-5">
             Contactanos
         </h3>
-        <h4>
-            Desde B y L te invitamos a conocer nuestra propuesta. Somos la solución más eficiente en belleza, cosmética, salud y cuidado personal en Capital Federal. Te esperamos para ayudarte a lucir un cuerpo más bello y también más saludable.
+        <h4 class="textoContacto">
+            Desde B y L te invitamos a conocer nuestra propuesta. Somos la solución más eficiente en belleza, cosmética,salud y cuidado personal en Capital Federal. Te esperamos para ayudarte lucir un cuerpo más bello y también más saludable.
         </h4>
-        <div>
+        <div class="datos">
             <img src="../assets/img/ubicacion.png" alt="logo ubicacion"> Av. Entre Ríos 633 – Capital Federal
         </div>
         <div>
@@ -86,6 +80,9 @@
         <div>
             <img src="../assets/img/instagram.png" alt="logo instagram">
         </div>
-    </footer>
+        </footer>
+        <!-- JS bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <h3>
 </body>
 </html>
