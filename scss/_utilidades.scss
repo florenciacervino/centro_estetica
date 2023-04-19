@@ -1,0 +1,10 @@
+.containerPrincipal{
+    align-items: $justify-items;
+}
+.contacto{
+    text-align: $justify-texto;    
+}
+@mixin flex {
+    display: flex;
+    flex-direction: column;
+}

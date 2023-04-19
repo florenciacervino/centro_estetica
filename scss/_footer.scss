@@ -1,0 +1,15 @@
+footer{
+    background: $color-1;
+    padding: 20px;
+    .textoContacto{
+        padding: 20px;
+    }
+    .datos{    
+        @include flex;
+        align-items: center;
+        justify-content: center;
+        div{
+            width: 288px;
+        }
+    }
+}

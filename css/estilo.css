@@ -1,0 +1,143 @@
+/*diferentes variables*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline; }
+
+.containerPrincipal {
+  align-items: center; }
+
+.contacto {
+  text-align: center; }
+
+body {
+  background-color: #b96e9c; }
+
+.colorNav {
+  background-color: #ac7894; }
+
+header {
+  background-color: #e646b0;
+  display: flex;
+  justify-content: space-between; }
+  header div img {
+    width: 20%; }
+
+.nav {
+  padding-right: 20px;
+  display: flex;
+  justify-content: baseline;
+  background-color: #ac7894; }
+
+.ul li {
+  display: inline-block;
+  margin-right: 20px; }
+  .ul li a {
+    color: #0a0a0a;
+    text-decoration: none; }
+
+main {
+  display: flex; }
+
+section {
+  width: 100%; }
+
+.parrafo {
+  background-color: #ac7894; }
+
+.tituloPrincipal {
+  height: 50%;
+  text-align: center;
+  padding-bottom: 15px; }
+
+.tratamientos main {
+  display: flex;
+  flex-direction: column; }
+  .tratamientos main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15PX; }
+
+.col-Img {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/img/imag.nosotros.jpg); }
+
+.Principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+
+.galeria {
+  width: 100%; }
+
+.carousel-item {
+  height: 70vh; }
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover; }
+
+.testimonios {
+  border: 2px solid #91808b;
+  padding: 6px; }
+
+.alto {
+  height: 70vh; }
+  @media screen and (max-width: 500px) {
+    .alto {
+      height: unset; } }
+
+.columnaIzq {
+  height: 100%;
+  display: flex; }
+
+.columnaDerecha {
+  height: 100%; }
+
+.saludBienestar {
+  color: #91808b; }
+
+.imagenPincipal {
+  width: 100%; }
+
+.contacto main {
+  display: flex;
+  flex-direction: column; }
+
+.mainContacto {
+  background-color: #ac7894;
+  margin: 0 auto; }
+
+.mapa {
+  padding: 50px; }
+
+footer {
+  background: #b96e9c;
+  padding: 20px; }
+  footer .textoContacto {
+    padding: 20px; }
+  footer .datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    footer .datos div {
+      width: 288px; }
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,40 +1,27 @@
-
-.navbar{
-    padding-right 20px
-}
-
-
-
-body{
-    background-color: rgb(223, 214, 217);
-}
-
-header{
-    background-color:rgb(182, 62, 102);
-    display:flex ;
-    justify-content: space-between;
-}
-header div img{
-    width: 20%
-}
-.colorNav {
-    background-color: rgb(240, 229, 231);
-}
-
 main{ 
     display: flex ;
 }
 section{
     width: 100%;
 }
-.parrafo{background-color: rgb(231, 194, 205);
+.parrafo{background-color: $color-3;
 }
 
 .tituloPrincipal{
     height: 50%;
-    text-align: center;
+    text-align: $justify-texto;
+    padding-bottom: 15px;
 }
-
+.tratamientos{
+    main{
+        @include flex;
+        section{
+            @include flex;
+            align-items: center;
+            padding: 15PX;;
+        }
+    }
+}
 
 .col-Img{
  background-position: center;
@@ -45,12 +32,10 @@ section{
     display: flex;
     flex-direction:column;
     justify-content:space-around;
-    align-items: center;
+    align-items: $justify-items;
 }
 
-.containerPrincipal{
-    align-items: center;
-}
+
 .galeria{
     width: 100%;
 }
@@ -64,11 +49,14 @@ height: 70vh;
 
 
 .testimonios{ 
-    border: 2px solid palevioletred;
+    border: 2px solid $color-4;
 padding: 6px;
 }
 .alto{
     height:70vh;
+    @media screen and (max-width:500px) {
+        height:unset; 
+    }
 
 }
 .columnaIzq{
@@ -80,26 +68,25 @@ display: flex;
     height: 100%;
 }
 .saludBienestar{
-     color: rgb(207, 15, 105);
+     color: $color-4;
 }
 
-footer{
-    
-    
-
-}
 
 
 .imagenPincipal{
     width: 100%;
 }
 .contacto{
-    text-align: center;    
+    main{
+        @include flex;
+    }
 }
-.datos{
-  
+.mainContacto {
+    background-color: $color-3;
+    margin: 0 auto;
+
 }
 
-    
-
-
+.mapa{
+    padding: 50px;;
+}

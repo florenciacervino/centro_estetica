@@ -1,0 +1,30 @@
+
+
+.colorNav {
+    background-color: $color-3;
+   
+}
+header{
+    background-color:$color-2;
+    display:flex ;
+    justify-content:$justify-between;
+    div img{
+        width: 20%
+    }
+}
+    
+    .nav{
+        padding-right: 20px;
+        display: flex;
+        justify-content: baseline;
+        background-color: $color-3;
+    }
+    .ul li{
+        display: inline-block;
+        margin-right: 20px;
+        a{
+            color: $color-5;
+            text-decoration: none;
+        }
+    }
+    

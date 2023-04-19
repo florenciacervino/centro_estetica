@@ -1,0 +1,102 @@
+
+
+.navbar{
+    padding-right: 20px
+}
+
+
+
+body{
+    background-color: rgb(223, 214, 217);
+}
+
+header{
+    background-color:rgb(182, 62, 102);
+    display:flex ;
+    justify-content: space-between;
+}
+header div img{
+    width: 20%
+}
+.colorNav {
+    background-color: rgb(240, 229, 231);
+}
+
+main{ 
+    display: flex ;
+}
+section{
+    width: 100%;
+}
+.parrafo{background-color: rgb(231, 194, 205);
+}
+
+.tituloPrincipal{
+    height: 50%;
+    text-align: center;
+}
+
+
+.col-Img{
+ background-position: center;
+ background-size: cover;
+ background-image: url(../assets/img/imag.nosotros.jpg)
+}
+.Principal{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.containerPrincipal{
+    align-items: center;
+}
+.galeria{
+    width: 100%;
+}
+.carousel-item{
+height: 70vh;
+}
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.testimonios{ 
+    border: 2px solid palevioletred;
+padding: 6px;
+}
+.alto{
+    height:70vh;
+
+}
+.columnaIzq{
+    height: 100%;
+display: flex;
+
+}
+.columnaDerecha{
+    height: 100%;
+}
+.saludBienestar{
+     color: rgb(207, 15, 105);
+}
+
+footer{
+    
+    
+
+}
+
+
+.imagenPincipal{
+    width: 100%;
+}
+.contacto{
+    text-align: center;    
+}
+.datos{
+  
+}
